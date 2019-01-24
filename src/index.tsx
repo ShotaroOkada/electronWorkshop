@@ -6,7 +6,7 @@ import Store from './ts/Store';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyle } from './ts/components/FoundationStyles';
 
-const container = document.getElementById('contents') as HTMLElement;
+const container = document.getElementById('root') as HTMLElement;
 
 ReactDom.render(
     <div>
